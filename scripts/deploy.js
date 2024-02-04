@@ -6,7 +6,7 @@ async function deploy() {
     const myToken = await MyToken.deploy();
 
     // Log the deployed contract address
-    console.log("ERC20 Permit contract deployed at:", myToken.address);
+    console.log("ERC20 Permit contract deployed at:", myToken.target);
 }
 
 deploy()
